@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html"> Home </a> 
         </li>
@@ -17,29 +18,50 @@
         </li>
     </ul>
 
-    <h1>Sobre o Henrique</h1>
-    
-    <p>
-        Olá, sou o Henrique, sou uma pessoa calma, persistente com bom foco e orientado aos detalhes, tenho facilidade no trabalhar em equipe e sou organizado. 
-        Atualmente cursando 10° semestre de Engenharia Elétrica e participando do Bootcamp relacionado a Desenvolvedor .NET onde tenho desenvolvido projetos como Blog Pessoal, 
-        Ecommerce (aplicando CRUD) e utilizando a Linguagem de programação C# (CSHARP). Além do Bootcamp estudo através de plataformas, vídeos e leituras para me aprofundar em 
-        conhecimento referente a desenvolvimento de software.
-    </p>
-    <p>
-        A área de programação me despertou grande interesse pois nos permite desenvolver soluções para diversos fins utilizando a tecnologia, 
-        além de poder contribuir com projetos que tem como resultado causar impacto positivo no dia a dia de todos que irão utiliza-lo.
-    </p>
-    <p>
-        Tenho como meta obter conhecimento na área de Desenvolvimento de Software e me tornar um profissional especialista nesta área, dentre outras metas pessoais. 
-    </p>
+    <h1 class="center">Sobre o Henrique</h1>
 
-    <img src="assets/img/Eu.png" alt="Foto do criador deste conteudo">    
+    <div class="container">
 
-    <h2>Um vídeo de uma musica que gosto</h2>
+        <div>
+            <img class="br-50" src="assets/img/Eu.png" alt="Foto do criador deste conteudo">    
+        </div>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Krw3YIZI-Ps" 
-    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
-    clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-    </iframe>
+        <div class="p-30">
+            <p class="justify">
+                Olá, sou o Henrique, sou uma pessoa calma, persistente com bom foco e orientado aos detalhes, tenho facilidade no trabalhar em equipe e sou organizado. 
+                Atualmente cursando 10° semestre de Engenharia Elétrica e participando do Bootcamp relacionado a Desenvolvedor .NET onde tenho desenvolvido projetos como Blog Pessoal, 
+                Ecommerce (aplicando CRUD) e utilizando a Linguagem de programação C# (CSHARP). Além do Bootcamp estudo através de plataformas, vídeos e leituras para me aprofundar em 
+                conhecimento referente a desenvolvimento de software.
+            </p>
+            <p class="justify">
+                A área de programação me despertou grande interesse pois nos permite desenvolver soluções para diversos fins utilizando a tecnologia, 
+                além de poder contribuir com projetos que tem como resultado causar impacto positivo no dia a dia de todos que irão utiliza-lo.
+            </p>
+            <p class="justify">
+                Tenho como meta obter conhecimento na área de Desenvolvimento de Software e me tornar um profissional especialista nesta área, dentre outras metas pessoais. 
+            </p>
+        </div>
+        
+    </div>
+
+    <h2 class="center">Um vídeo de uma musica que gosto</h2>
+
+    <div class="container mb-50">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Krw3YIZI-Ps" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </div>
+    <hr>
+    <footer>
+        <h3 class="center mt-50">Redes Sociais</h3>
+        <div class="container"> 
+            <a href="https://www.linkedin.com/in/henrique-melo-6867b4127/" target="_blank">   
+                <img class="tm-social" src="assets/img/linkedin.png" alt="Logo do Linkedin"></a>
+            <a href="https://github.com/HenriqueGMelo" target="_blank">  
+                <img class="tm-social" src="assets/img/github.png" alt="Logo do Github"></a>
+        </div>
+        <p class="center margin-footer">Todos direitos reservados: Henrique Melo &copy</p> 
+    </footer>
 </body>
 </html>
